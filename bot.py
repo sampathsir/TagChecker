@@ -33,7 +33,7 @@ async def is_admin(message):
 
 @tagcheck.on_message(filters.command("start") & filters.user(OWNER_ID))
 async def start(_, message):
-   await message.reply("I am Alive.")
+   await message.reply("I can Support on @Heavennetworks only.")
 
 @tagcheck.on_message(filters.group)
 async def tag_check(_, message):
